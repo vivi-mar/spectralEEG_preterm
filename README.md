@@ -1,6 +1,7 @@
 # spectralEEG_preterm
-.mat pipeline to perform basic artifact rejection and EEG spectral analysis - parameters have been set for neonatalEEG
+.mat pipelines to perform basic artifact rejection and EEG spectral analysis - parameters have been set for neonatal EEG
 
 ## Algorithms
-Basic filtering and artifact rejection
-Spectral analysis
+- Basic filtering and artifact rejection
+
+- Spectral analysis
