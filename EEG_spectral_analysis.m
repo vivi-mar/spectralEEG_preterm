@@ -1,6 +1,6 @@
 % driver to process an EEG dataset
-clear all 
-close all
+% clear all  %% optionally you can clean your working space memory
+% close all
 
 warning off
 
@@ -138,7 +138,7 @@ for K = 1 : size(FN,2)
 
 
  
-%% writes report
+% writes report
 
          fprintf(fid,';%s',[])
        for b=1:length(grpn_name1);
@@ -176,3 +176,4 @@ for K = 1 : size(FN,2)
 end    
 fclose(fid);
 
+warning on
