@@ -138,3 +138,5 @@ warning off
     FileName = strcat(FileName);
     save(strcat(Pathfilt, FileName), 'EEG');
  end
+ 
+ warning on
